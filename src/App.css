@@ -1,0 +1,62 @@
+body{font-family: helvetica, sans-serif}
+  
+    ul.navbar{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+    }
+    .navbar li{
+        float: left;
+    }
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+    .navbar li a:hover{
+        background-color:#111111;
+    }
+    .navbar table{
+        width:100%;
+        border: 1px solid #ddd;
+        border-collapse: collapse;
+    }
+    table,th, td{
+            border: 1px solid #ddd;
+            padding: 8px;
+            border-collapse: collapse;
+        }
+        tr:nth-child(even){
+            background-color: #f2f2f2;
+            border-collapse: collapse;
+        }
+       tr:hover{background-color: #ddd;}
+       table th{
+        padding: top 12px;
+        padding-bottom: 12px;
+        text-align:left;
+        background-color: #04AA6D;
+        color: white;
+        border-collapse: collapse; 
+       }
+    .lesson {
+        background-color: rgba(236, 229, 220, 0.686);
+        color:black;
+        border: 7px; 
+            }
+    .headings{
+        color:rgb(69, 165, 112);
+            }
+    .tags{
+        color:#352605;
+        font-weight:bold;
+            }
+    .w3-theme-border{
+        border-width:1px;
+        border-style:solid;
+        padding:5px;
+    }
